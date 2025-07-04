@@ -2,6 +2,7 @@ import { useState } from "react";
 import Preloader from "@/components/Preloader";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
+import PlatformSection from "@/components/PlatformSection";
 import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import IdentitySection from "@/components/IdentitySection";
@@ -20,6 +21,7 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <Navigation />
       <HeroSection />
+      <PlatformSection />
       <AboutSection />
       <ProjectsSection />
       <IdentitySection />

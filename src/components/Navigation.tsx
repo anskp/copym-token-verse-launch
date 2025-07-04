@@ -5,6 +5,7 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
+    { name: "Platform", href: "#platform" },
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Identity", href: "#identity" },
