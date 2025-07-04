@@ -22,11 +22,11 @@ const AboutSection = () => {
               </div>
               
               {/* Profile image */}
-              <div className="absolute inset-4 rounded-full overflow-hidden neon-glow">
+              <div className="absolute inset-4 rounded-full overflow-hidden neon-glow flex items-center justify-center bg-background">
                 <img 
-                  src="/lovable-uploads/1a09a4d3-ab0a-4afa-8985-18732f9ed709.png"
-                  alt="COPYm Vision"
-                  className="w-full h-full object-cover"
+                  src="/lovable-uploads/b38d1f6e-4f95-47d6-815f-9af70763f17a.png"
+                  alt="COPYm Logo"
+                  className="w-32 h-32 object-contain"
                 />
               </div>
             </div>

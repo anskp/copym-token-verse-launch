@@ -7,6 +7,8 @@ const Navigation = () => {
   const navItems = [
     { name: "Platform", href: "#platform" },
     { name: "About", href: "#about" },
+    { name: "Issuers", href: "#issuers" },
+    { name: "Investors", href: "#investors" },
     { name: "Projects", href: "#projects" },
     { name: "Identity", href: "#identity" },
     { name: "Marketplace", href: "#marketplace" },
@@ -19,7 +21,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg neon-glow" />
+            <img 
+              src="/lovable-uploads/b38d1f6e-4f95-47d6-815f-9af70763f17a.png"
+              alt="COPYm Logo"
+              className="w-8 h-8"
+            />
             <span className="text-xl font-bold text-foreground">COPYm</span>
           </div>
 
